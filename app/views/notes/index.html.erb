@@ -1,3 +1,10 @@
+
+<body>
+  <hr>
+  <%= render 'layouts/navbar' %>
+  <%= yield %>
+  <hr>
+</body>
 <h1>NOTES</h1>
 <%= link_to "New Note", new_note_path%>
 <% @note.each do |note| %>

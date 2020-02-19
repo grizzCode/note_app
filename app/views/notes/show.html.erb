@@ -1,5 +1,12 @@
+<body>
+  <hr>
+  <%= render 'layouts/navbar' %>
+  <%= yield %>
+  <hr>
+</body>
+
 <h1>Read Note</h1>
 <%= @note.title %>
 <%= @note.note%>
 
-<%= link_to "Back", notes_path %>
+
